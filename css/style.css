@@ -9,6 +9,10 @@ p, h1, h2, h3, li {
   padding: 0.1em;
 }
 
+.games-body h1 {
+  font-size: 2.5em;
+}
+
 .games-body h2 {
   font-size: 2em;
 }
