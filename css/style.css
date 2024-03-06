@@ -1,9 +1,12 @@
 /* Text CSS */
 p {
   font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+  padding: 0.1em;
 }
 
-p, h1, h2, h3, li {
+h1, h2, h3, li {
   font-family: 'Lato', sans-serif;
   margin-bottom: 1em;
   padding: 0.1em;
