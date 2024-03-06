@@ -42,3 +42,18 @@ section {
   margin: 3em auto;
   max-width: 70rem;
 }
+
+.gallery {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 1em;
+  }
+  
+  .gallery-item {
+    display: inline-block;
+    margin-right: 1em; /* Adjust spacing between items */
+  }
+  
+  .gallery-item img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+  }
