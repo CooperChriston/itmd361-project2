@@ -1,6 +1,12 @@
 /* Text CSS */
-p, h1, h2 {
+p {
+    font-size: 1.2em;
+}
+
+p, h1, h2, h3 {
     font-family: 'Lato', sans-serif;
+    margin-bottom: 1em;
+    padding: 0.1em;
 }
 
 /* Navigation CSS */
@@ -57,7 +63,7 @@ section {
   
 .gallery-item {
     display: inline-block;
-    margin-right: 5em; /* Adjust spacing between items */
+    margin-right: 5em;
     margin: 1.5em;
     box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 1);
 }
@@ -65,4 +71,9 @@ section {
 .gallery-item img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/* Media CSS */
+iframe {
+    margin-bottom: 1em;
 }
